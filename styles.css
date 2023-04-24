@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/wall.jpg);
+    color: orange;
+
+
+}
+.signup {
+    height: 550px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+}
+.signup h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.signup form{
+    font-size: 20px;
+}
+.signup form .form-group {
+    font-size: 20px;
+    margin: 10px;
+
+}
+.signup form input[type="submit"]{
+    font-size: 20px;
+    margin: 15px;
+    color: black;
+    background: white;
+    margin: 1px;
+}
+.signup form input[type="submit"]:hover{
+    background: orange;
+}
